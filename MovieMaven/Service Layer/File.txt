@@ -1,4 +1,4 @@
-Think of MVVM as how the UI itseld is structured, rather than the entire app:
+Think of MVVM as how the UI itself is structured, rather than the entire app:
 
 ┌─────────────┐
 │   View     │  Views, no data knowledge (MovieMaven)
