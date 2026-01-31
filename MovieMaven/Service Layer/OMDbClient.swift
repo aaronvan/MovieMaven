@@ -4,8 +4,8 @@
 //
 //  Created by Aaron VanAlstine on 1/29/26.
 //
-//  OMDbClient.swift & OMDbError.swift are not part of MVVM proper.
-//  They live below MVVM, in the Model/Service/Data layer.
+//  OMDbClient.swift & OMDbError.swift live below MVVM,
+//  in the Model/Service/Data layer.
 
 import Foundation
 import SwiftDotEnv
@@ -44,6 +44,7 @@ struct OMDbClient {
             URLQueryItem(name: API.titleQuery, value: title),
             URLQueryItem(name: API.plotQuery, value: plot ? "full" : "short")
         ]
+        
         guard let url = components.url else {
             throw OMDbError.invalidURL
         }

@@ -14,7 +14,7 @@
 
 /* Begin PBXFileReference section */
 		EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA6FF0DC2F2DC098008C9679 /* MovieMaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6FF0DC2F2DC098008C9679 /* MovieMaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MovieMaven.app; path = /Users/aaronvanalstine/Developer/MovieMaven/build/Debug/MovieMaven.app; sourceTree = "<absolute>"; };
 		EAEAD30F2F2DBDB80033B1A8 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +45,6 @@
 				EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */,
 				EAEAD3092F2DBC8C0033B1A8 /* MovieMaven */,
 				EAEAD30A2F2DBCDC0033B1A8 /* Frameworks */,
-				EA6FF0DC2F2DC098008C9679 /* MovieMaven.app */,
 			);
 			sourceTree = "<group>";
 		};
