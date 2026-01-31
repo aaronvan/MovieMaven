@@ -1,0 +1,15 @@
+{
+  "originHash" : "132a647e33ad317331f80fa7f1e439a69587722ed49402e0ab7e01f184d57aa4",
+  "pins" : [
+    {
+      "identity" : "swift-dotenv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylebrowning/swift-dotenv",
+      "state" : {
+        "revision" : "817140f32990f7f426c6c18ee359711f1d992a24",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

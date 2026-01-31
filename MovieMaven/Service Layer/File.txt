@@ -1,0 +1,17 @@
+Think of MVVM as how the UI is structured, not the whole app:
+
+┌─────────────┐
+│   View     │  Views, no data knowledge (MovieMaven)
+└─────▲───────┘
+      │ binds to
+┌─────┴───────┐
+│ ViewModel  │  UI state, intent, business logic (MovieViewModel)
+└─────▲───────┘
+      │ calls
+┌─────┴───────┐
+│  Service   │  Networking, API request construction, decoding remote data. (OMDdClient, etc)
+└─────▲───────┘
+      │ produces
+┌─────┴───────┐
+│   Model    │  Pure data, no logic, no UI knowledge. (Movie)
+└─────────────┘
