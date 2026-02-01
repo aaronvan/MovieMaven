@@ -1,7 +1,8 @@
 //  MovieViewModel.swift
 //
 //  Pure Observation MVVM (no Combine / @Published)
-//  ViewModel = MovieViewModel (owns state, behavior, async calls)
+//  The ViewModel (owns state, behavior, async calls. Contains logic for formatting
+//  data for the View. Easily unit tested.)
 
 import Foundation
 import Observation

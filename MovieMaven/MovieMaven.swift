@@ -1,8 +1,7 @@
 //  MovieMaven.swift
 //  MovieMaven
 //
-//  SwiftUI View (pure Observation MVVM)
-//  View = MovieMaven (renders and binds only)
+//  The View (ure Observation MVVM. Represents UI and display data to the user.)
 
 import SwiftUI
 import Observation

@@ -3,7 +3,7 @@
 //  MovieMaven
 //
 //  Created by Aaron VanAlstine on 1/23/26.
-//  Model = Movie
+//  The Model (represents data and business logic.)
 
 import Foundation
 
