@@ -1,5 +1,6 @@
 //  MovieMaven.swift
 //  MovieMaven
+//  Created by Aaron VanAlstine on 1/23/26.
 //
 //  The View (pure Observation MVVM. Represents UI and display data to the user.)
 

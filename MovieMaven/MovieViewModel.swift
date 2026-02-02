@@ -1,4 +1,5 @@
 //  MovieViewModel.swift
+//  Created by Aaron VanAlstine on 1/23/26.
 //
 //  Pure Observation MVVM (no Combine / @Published)
 //  The ViewModel (owns state, behavior, async calls. Contains logic for formatting
@@ -18,7 +19,7 @@ final class MovieViewModel {
     var isLoading: Bool = false
 
     // Dependencies
-    var client: OMDbClient?
+    private let client: OMDbClient?
 
     init(client: OMDbClient? = nil) {
         let resolvedClient = client ?? (try? OMDbClient())
