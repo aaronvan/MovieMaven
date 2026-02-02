@@ -12,9 +12,28 @@
 		EAEAD3102F2DBDB80033B1A8 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = EAEAD30F2F2DBDB80033B1A8 /* .env */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EA965D1C2F302BE600703C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3632912F244D2C00A431C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEAD2C72F2DB8FC0033B1A8;
+			remoteInfo = MovieMaven;
+		};
+		EA965D292F302CE100703C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3632912F244D2C00A431C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEAD2C72F2DB8FC0033B1A8;
+			remoteInfo = MovieMaven;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA6FF0DC2F2DC098008C9679 /* MovieMaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MovieMaven.app; path = /Users/aaronvanalstine/Developer/MovieMaven/build/Debug/MovieMaven.app; sourceTree = "<absolute>"; };
+		EA965D042F30296400703C49 /* MovieMaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA965D182F302BE600703C49 /* MovieMavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieMavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA965D252F302CE100703C49 /* MovieViewModelResetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieViewModelResetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEAD30F2F2DBDB80033B1A8 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -27,6 +46,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA965D152F302BE600703C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA965D222F302CE100703C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAEAD2C52F2DB8FC0033B1A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,6 +78,9 @@
 				EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */,
 				EAEAD3092F2DBC8C0033B1A8 /* MovieMaven */,
 				EAEAD30A2F2DBCDC0033B1A8 /* Frameworks */,
+				EA965D042F30296400703C49 /* MovieMaven.app */,
+				EA965D182F302BE600703C49 /* MovieMavenTests.xctest */,
+				EA965D252F302CE100703C49 /* MovieViewModelResetTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +94,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA965D172F302BE600703C49 /* MovieMavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA965D202F302BE600703C49 /* Build configuration list for PBXNativeTarget "MovieMavenTests" */;
+			buildPhases = (
+				EA965D142F302BE600703C49 /* Sources */,
+				EA965D152F302BE600703C49 /* Frameworks */,
+				EA965D162F302BE600703C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA965D1D2F302BE600703C49 /* PBXTargetDependency */,
+			);
+			name = MovieMavenTests;
+			packageProductDependencies = (
+			);
+			productName = MovieMavenTests;
+			productReference = EA965D182F302BE600703C49 /* MovieMavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA965D242F302CE100703C49 /* MovieViewModelResetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA965D2B2F302CE100703C49 /* Build configuration list for PBXNativeTarget "MovieViewModelResetTests" */;
+			buildPhases = (
+				EA965D212F302CE100703C49 /* Sources */,
+				EA965D222F302CE100703C49 /* Frameworks */,
+				EA965D232F302CE100703C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA965D2A2F302CE100703C49 /* PBXTargetDependency */,
+			);
+			name = MovieViewModelResetTests;
+			packageProductDependencies = (
+			);
+			productName = MovieViewModelResetTests;
+			productReference = EA965D252F302CE100703C49 /* MovieViewModelResetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EAEAD2C72F2DB8FC0033B1A8 /* MovieMaven */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAEAD2E62F2DB8FD0033B1A8 /* Build configuration list for PBXNativeTarget "MovieMaven" */;
@@ -78,7 +154,7 @@
 				EAEAD30B2F2DBCDC0033B1A8 /* SwiftDotEnv */,
 			);
 			productName = MovieMaven;
-			productReference = EA6FF0DC2F2DC098008C9679 /* MovieMaven.app */;
+			productReference = EA965D042F30296400703C49 /* MovieMaven.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,6 +167,14 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					EA965D172F302BE600703C49 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = EAEAD2C72F2DB8FC0033B1A8;
+					};
+					EA965D242F302CE100703C49 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = EAEAD2C72F2DB8FC0033B1A8;
+					};
 					EAEAD2C72F2DB8FC0033B1A8 = {
 						CreatedOnToolsVersion = 26.2;
 						LastSwiftMigration = 2620;
@@ -115,11 +199,27 @@
 			projectRoot = "";
 			targets = (
 				EAEAD2C72F2DB8FC0033B1A8 /* MovieMaven */,
+				EA965D172F302BE600703C49 /* MovieMavenTests */,
+				EA965D242F302CE100703C49 /* MovieViewModelResetTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA965D162F302BE600703C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA965D232F302CE100703C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAEAD2C62F2DB8FC0033B1A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,6 +232,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA965D142F302BE600703C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA965D212F302CE100703C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAEAD2C42F2DB8FC0033B1A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,6 +254,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA965D1D2F302BE600703C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEAD2C72F2DB8FC0033B1A8 /* MovieMaven */;
+			targetProxy = EA965D1C2F302BE600703C49 /* PBXContainerItemProxy */;
+		};
+		EA965D2A2F302CE100703C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEAD2C72F2DB8FC0033B1A8 /* MovieMaven */;
+			targetProxy = EA965D292F302CE100703C49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EA3632A22F244D2D00A431C9 /* Debug */ = {
@@ -260,6 +387,82 @@
 			};
 			name = Release;
 		};
+		EA965D1E2F302BE600703C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jensen.MovieMavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieMaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieMaven";
+			};
+			name = Debug;
+		};
+		EA965D1F2F302BE600703C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jensen.MovieMavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieMaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieMaven";
+			};
+			name = Release;
+		};
+		EA965D2C2F302CE100703C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jensen.MovieViewModelResetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieMaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieMaven";
+			};
+			name = Debug;
+		};
+		EA965D2D2F302CE100703C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jensen.MovieViewModelResetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieMaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MovieMaven";
+			};
+			name = Release;
+		};
 		EAEAD2E72F2DB8FD0033B1A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -351,6 +554,24 @@
 			buildConfigurations = (
 				EA3632A22F244D2D00A431C9 /* Debug */,
 				EA3632A32F244D2D00A431C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA965D202F302BE600703C49 /* Build configuration list for PBXNativeTarget "MovieMavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA965D1E2F302BE600703C49 /* Debug */,
+				EA965D1F2F302BE600703C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA965D2B2F302CE100703C49 /* Build configuration list for PBXNativeTarget "MovieViewModelResetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA965D2C2F302CE100703C49 /* Debug */,
+				EA965D2D2F302CE100703C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
