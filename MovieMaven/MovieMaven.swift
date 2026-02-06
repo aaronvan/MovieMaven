@@ -49,41 +49,16 @@ struct MovieMaven: View {
             }
             
             if let movie = vm.movie {
-                Text("Title: \(movie.title)")
-                    .font(.title)
-                    .fontWeight(.bold)
-                Text("Year: \(movie.year)")
-                    .font(.subheadline)
-                Text("Genre: \(movie.genre)")
-                    .font(.subheadline)
-                
-                Divider().padding(.vertical, 5)
-                
-                Text("Actors: \(movie.actors)")
-                Text("Director: \(movie.director)")
-                
-                Divider().padding(.vertical, 5)
-                
-                Text("Plot: \(movie.plot)")
-                    .font(.body)
-                
-                if !movie.awards.isEmpty && movie.awards != "N/A" {
-                    Divider().padding(.vertical, 5)
-                    HStack {
-                        Image(systemName: "trophy.fill")
-                            .foregroundColor(.yellow)
-                        Text(movie.awards)
-                    }
-                }
-                
+                MovieDetailsView(movie: movie)
             } else if let errorMessage = vm.errorMessage {
-                    Text(errorMessage)
-                        .foregroundStyle(.red)
-                }
+                Text(errorMessage)
+                    .foregroundStyle(.red)
+            }
             
             Toggle(isOn: $vm.fullPlot) {
                 Text("Full Description")
             }
+            
         }
         .padding()
         .background(Color.secondary.opacity(0.15))
