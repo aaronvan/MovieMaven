@@ -44,16 +44,8 @@
 				EAEAD30F2F2DBDB80033B1A8 /* .env */,
 				EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */,
 				EAEAD3092F2DBC8C0033B1A8 /* MovieMaven */,
-				EAEAD30A2F2DBCDC0033B1A8 /* Frameworks */,
 				EA965D042F30296400703C49 /* MovieMaven.app */,
 			);
-			sourceTree = "<group>";
-		};
-		EAEAD30A2F2DBCDC0033B1A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
