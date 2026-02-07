@@ -1,8 +1,8 @@
 //
 //  MovieDetailsView.swift
-//  MovieMaven
-//
 //  Created by Aaron VanAlstine on 2/6/26.
+//  Split this View off from the main View
+//  for simplicity.
 //
 
 import SwiftUI

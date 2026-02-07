@@ -1,9 +1,7 @@
 //
 //  Movie.swift
-//  MovieMaven
-//
 //  Created by Aaron VanAlstine on 1/23/26.
-//  The Model (represents data and business logic. Just a struct.)
+//
 
 import Foundation
 

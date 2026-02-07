@@ -1,5 +1,5 @@
+//
 //  MovieMavenApp.swift
-//  MovieMaven
 //  Created by Aaron VanAlstine on 1/23/26.
 //
 

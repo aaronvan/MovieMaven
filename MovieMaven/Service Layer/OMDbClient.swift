@@ -1,11 +1,8 @@
 //
 //  OMDbClient.swift
-//  MovieMaven
 //
 //  Created by Aaron VanAlstine on 1/29/26.
 //
-//  OMDbClient.swift & OMDbError.swift live below MVVM,
-//  in the Model/Service/Data layer.
 
 import Foundation
 import SwiftDotEnv

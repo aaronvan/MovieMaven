@@ -1,6 +1,5 @@
 //
 //  OMDbClientError.swift
-//  MovieMaven
 //
 //  Created by Aaron VanAlstine on 1/30/26.
 //

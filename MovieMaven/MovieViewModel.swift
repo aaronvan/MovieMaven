@@ -1,9 +1,8 @@
 //  MovieViewModel.swift
 //  Created by Aaron VanAlstine on 1/23/26.
 //
-//  Pure Observation MVVM (no Combine / @Published)
-//  The ViewModel (owns state, behavior, async calls. Contains logic for formatting
-//  data for the View. Easily unit tested.)
+//  The ViewModel
+//
 
 import Foundation
 import Observation
