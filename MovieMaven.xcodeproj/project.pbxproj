@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA6FF0DB2F2DBFD0008C9679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */; };
 		EAEAD30C2F2DBCDC0033B1A8 /* SwiftDotEnv in Frameworks */ = {isa = PBXBuildFile; productRef = EAEAD30B2F2DBCDC0033B1A8 /* SwiftDotEnv */; };
 		EAEAD3102F2DBDB80033B1A8 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = EAEAD30F2F2DBDB80033B1A8 /* .env */; };
+		EAFDD1A32F36C064000C14E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFDD1A22F36C064000C14E4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA965D042F30296400703C49 /* MovieMaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEAD30F2F2DBDB80033B1A8 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		EAFDD1A22F36C064000C14E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,8 +41,8 @@
 		EA3632902F244D2C00A431C9 = {
 			isa = PBXGroup;
 			children = (
+				EAFDD1A22F36C064000C14E4 /* Assets.xcassets */,
 				EAEAD30F2F2DBDB80033B1A8 /* .env */,
-				EA6FF0DA2F2DBFD0008C9679 /* Assets.xcassets */,
 				EAEAD3092F2DBC8C0033B1A8 /* MovieMaven */,
 				EA965D042F30296400703C49 /* MovieMaven.app */,
 			);
@@ -117,7 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6FF0DB2F2DBFD0008C9679 /* Assets.xcassets in Resources */,
+				EAFDD1A32F36C064000C14E4 /* Assets.xcassets in Resources */,
 				EAEAD3102F2DBDB80033B1A8 /* .env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

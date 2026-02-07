@@ -4,9 +4,21 @@ build/
 *.xcuserstate
 *.xcuserdata/
 
+## Obj-C/Swift specific
+*.hmap
+
 # Secrets
 .env
 .env.*
 
 # macOS
 .DS_Store
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
