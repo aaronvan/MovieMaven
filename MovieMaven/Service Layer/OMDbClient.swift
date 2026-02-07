@@ -25,7 +25,7 @@ struct OMDbClient {
     // Dependency injection for testability
     init(session: URLSession = .shared) throws {
         self.session = session
-        guard let envURL = Bundle.main.url(forResource: ".env", withExtension: nil) else {
+        guard let envURL: URL = Bundle.main.url(forResource: ".env", withExtension: nil) else {
             throw OMDbError.envFileMissing
         }
         guard let apiKey: String = try? DotEnv(path: envURL.path).require("API_KEY") else {
