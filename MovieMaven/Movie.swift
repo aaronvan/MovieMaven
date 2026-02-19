@@ -6,7 +6,7 @@
 import Foundation
 
 // Model matching OMDb fields for a single title lookup (t=)
-struct Movie: Decodable, Identifiable {
+struct Movie: Codable, Identifiable {
     var id: String { imdbID }
     let title: String
     let year: String

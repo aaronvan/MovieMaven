@@ -19,12 +19,14 @@ struct OMDbClient {
         static let plotQuery = "plot"
     }
     
-    // Dependency injection for testability
+    // Dependency injection
+    // Accepts a URLSession object. If one isn't provided, it defaults to URLSession.shared
     init(session: URLSession = .shared) throws {
         self.session = session
         guard let envURL: URL = Bundle.main.url(forResource: ".env", withExtension: nil) else {
             throw OMDbError.envFileMissing
         }
+        // uses the swift-dotenv package to parse the .env file
         guard let apiKey: String = try? DotEnv(path: envURL.path).require("API_KEY") else {
             throw OMDbError.apiKeyMissing
         }
