@@ -14,7 +14,7 @@ struct MovieDetailsView: View {
         VStack(alignment: .leading, spacing: 10) {
             Text("Title: \(movie.title)")
                 .font(.title)
-                .fontWeight(.bold)
+                .bold()
             Text("Year: \(movie.year)")
                 .font(.subheadline)
             Text("Genre: \(movie.genre)")
@@ -32,10 +32,11 @@ struct MovieDetailsView: View {
 
             if !movie.awards.isEmpty && movie.awards != "N/A" {
                 Divider().padding(.vertical, 5)
-                HStack {
-                    Image(systemName: "trophy.fill")
-                        .foregroundColor(.yellow)
+                Label {
                     Text(movie.awards)
+                } icon: {
+                    Image(systemName: "trophy.fill")
+                        .foregroundStyle(.yellow)
                 }
             }
         }
